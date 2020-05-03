@@ -1,0 +1,32 @@
+﻿Build started 5/3/2020 11:26:29 AM.
+     1>Project "E:\ProjectCodeBl\game\GameSDl2\GameSDl2\GameSDl2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\GameSDl2.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\commonfunc.h(47): warning C4091: 'typedef ' : ignored on left of 'Input' when no variable is declared
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\commonfunc.h(56): warning C4091: 'typedef ' : ignored on left of 'Map' when no variable is declared
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\mainobject.h(26): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\mainobject.h(27): warning C4244: 'return' : conversion from 'const float' to 'int', possible loss of data
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(89): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(90): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(117): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(118): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(184): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(189): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\projectcodebl\game\gamesdl2\gamesdl2\main.cpp(200): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ProjectCodeBl\game\GameSDl2\Debug\GameSDl2.exe" /INCREMENTAL /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\ProjectCodeBl\game\GameSDl2\Debug\GameSDl2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ProjectCodeBl\game\GameSDl2\Debug\GameSDl2.lib" /MACHINE:X86 Debug\BaseObject.obj
+         Debug\CommonFunc.obj
+         Debug\CrateObject.obj
+         Debug\game_map.obj
+         Debug\ImpTimer.obj
+         Debug\main.obj
+         Debug\MainObject.obj
+         Debug\PointObject.obj
+         Debug\stdafx.obj
+         GameSDl2.vcxproj -> E:\ProjectCodeBl\game\GameSDl2\Debug\GameSDl2.exe
+     1>Done Building Project "E:\ProjectCodeBl\game\GameSDl2\GameSDl2\GameSDl2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.80
